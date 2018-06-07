@@ -127,7 +127,7 @@ const mostFollowers = (smData, countWhat, overAge) => {
 //console.log(mostFollowers(data, 'follows', 0));
 
 const mostFollowedBy = (smData, countWhat, overAge) => {
-  let mostFollowedBy = [];
+  let mostFollowedBy = []; 
   let followedBy = [];
   let idName = createDict(smData);
   let test = smData;
