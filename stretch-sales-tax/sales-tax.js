@@ -23,8 +23,7 @@ var companySalesData = [
 ];
 
 function calculateSalesTax(salesData, taxRates) {
-  // Create an add function
-  const add = (a, b) => a + b;
+  const add = (a, b) => a + b; // Create an add function
   let sumSales; let taxRate; let sumTaxes;
   let result = {};
 
