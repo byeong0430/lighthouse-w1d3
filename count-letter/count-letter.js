@@ -12,7 +12,7 @@ const countLetters = function (string) {
     */
     (Object.keys(result).indexOf(letter) === -1) ? result[letter] = 1 : result[letter]++;  
   })
-  console.log(Object.keys(result));
+  
   return result;
 };
 
